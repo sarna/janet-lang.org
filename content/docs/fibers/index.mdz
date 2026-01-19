@@ -119,3 +119,7 @@ while the second argument, @code[x], is an arbitrary payload value.
 # only prints :hey
 ```)
 
+## Lazy evaluation
+
+Janet's core functions are eagerly evaluated. @link[/spork/api/generators.html]{spork/generators} module contains lazily
+evaluated generator functions.
