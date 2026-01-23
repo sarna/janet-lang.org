@@ -42,7 +42,6 @@
         flex-direction: column;
     }
     .toc {
-        background: #f2f2f2;
         width: calc(100% - 60px);
     }
     .prevnext-text a {
