@@ -80,7 +80,7 @@ by entering the command @code[(doc)] into the REPL.
 
 @codeblock(```
 $ janet
-Janet 1.41.0-dev-883dde4f linux/x64/gcc - '(doc)' for help
+Janet 1.40.1-1449ad8b linux/x64/gcc - '(doc)' for help
 repl:1:> (+ 1 2 3)
 6
 repl:2:> (print "Hello, World!")
