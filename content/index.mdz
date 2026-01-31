@@ -70,6 +70,10 @@ such as threading, networking, an event loop, subprocess handling, regex-like li
 </div>
 ]
 
+## Get Started
+
+Check out the @link[docs/index.html]{documentation} for an introduction and installation instructions.
+
 ## Usage
 
 A REPL is launched when the @code`janet` binary is invoked with no arguments. Pass the @code`-h` flag
