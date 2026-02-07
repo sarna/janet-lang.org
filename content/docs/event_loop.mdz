@@ -218,3 +218,9 @@ when it completes successfully, with the message @code`[:ok fiber]`. The most us
 These events will be tuples of 2 arguments, @code`(signal fiber)`.
 
 A task can also write custom messages to its supervisor with @code`ev/give-supervisor`.
+
+## Standard streams
+
+@code`stdin`, @code`stdout`, and @code`stderr` in janet core API are files. File operations block the event loop.
+Functions in @link[/spork/api/stream.html]{spork/stream} module create standard streams that don't block the event loop,
+but they don't work on microsoft windows.
